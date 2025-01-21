@@ -78,7 +78,7 @@ def main():
     display_chat_history()
     
     # Chat input
-    if user_input := st.chat_input("Type your message here..."):
+    if user_input := st.chat_input("Introduza o texto do anúncio para análise aqui"):
         # Add user message to chat
         add_message("user", user_input)
         
