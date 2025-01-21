@@ -69,7 +69,7 @@ def send_message_to_webhook(session_id: str, user_input: str) -> Dict:
         return {"output": "Sorry, I encountered an error processing your request."}
 
 def main():
-    st.title("Como analista especializado, faço revisões e otimizo anúncios imobiliários para portais portugueses (Idealista, Imovirtual, Supercasa e Casayes). Analiso o anúncio original, identifico melhorias e oportunidades para aumentar a atratividade, focando em captar a atenção do público-alvo e alinhando com as melhores práticas do mercado.")
+    st.title("Como analista especializado, faço revisões e otimizo anúncios imobiliários para portais portugueses (Idealista, Imovirtual, Supercasa e Casayes). Analiso o anúncio original, identifico melhorias e oportunidades para aumentar a atratividade, com foco em captar a atenção do público-alvo alinhado com as melhores práticas do mercado.")
     
     # Initialize session state
     initialize_session_state()
